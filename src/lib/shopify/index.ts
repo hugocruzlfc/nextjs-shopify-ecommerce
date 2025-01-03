@@ -133,6 +133,7 @@ function reshapeImages(images: Connection<Image>, productTitle: string) {
     };
   });
 }
+
 function reshapeProduct(
   product: ShopifyProduct,
   filterHiddenProducts: boolean = true,
@@ -152,6 +153,7 @@ function reshapeProduct(
     variants: removeEdgesAndNodes(variants),
   };
 }
+
 function reshapeProducts(products: ShopifyProduct[]) {
   const reshapedProducts = [];
 
