@@ -1,6 +1,4 @@
-const prettierConfig = {
+module.exports = {
   plugins: ["prettier-plugin-organize-imports", "prettier-plugin-tailwindcss"],
   tailwindFunctions: ["clsx"],
 };
-
-export default prettierConfig;
